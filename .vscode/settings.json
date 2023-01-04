@@ -1,10 +1,25 @@
 {
-    "dendron.rootDir": ".",
-    "files.autoSave": "onFocusChange",
-    "pasteImage.path": "${currentFileDir}/assets/images",
-    "pasteImage.prefix": "/",
-    "editor.snippetSuggestions": "inline",
-    "editor.suggest.snippetsPreventQuickSuggestions": false,
-    "editor.suggest.showSnippets": true,
-    "editor.tabCompletion": "on"
+  "dendron.rootDir": ".",
+  "files.autoSave": "onFocusChange",
+  "pasteImage.path": "${currentFileDir}/assets/images",
+  "pasteImage.prefix": "/",
+  "editor.snippetSuggestions": "inline",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "editor.suggest.showSnippets": true,
+  "editor.tabCompletion": "on",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#117a23",
+    "activityBar.background": "#117a23",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#a08fef",
+    "activityBarBadge.foreground": "#15202b",
+    "editorError.foreground": "#000000ff",
+    "editorGroup.border": "#117a23",
+    "editorInfo.foreground": "#000000ff",
+    "editorWarning.foreground": "#000000ff",
+    "sash.hoverBorder": "#117a23",
+    "tab.activeBorder": "#117a23"
+  },
+  "peacock.color": "#0b4d16"
 }

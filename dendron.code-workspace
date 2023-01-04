@@ -1,33 +1,51 @@
 {
-    "folders": [
-        {
-            "path": "vault"
-        }
-    ],
-    "settings": {
-        "dendron.rootDir": ".",
-        "files.autoSave": "onFocusChange",
-        "pasteImage.path": "${currentFileDir}/assets/images",
-        "pasteImage.prefix": "/",
-        "markdown-preview-enhanced.enableWikiLinkSyntax": true,
-        "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
-        "editor.snippetSuggestions": "inline",
-        "editor.suggest.snippetsPreventQuickSuggestions": false,
-        "editor.suggest.showSnippets": true,
-        "editor.tabCompletion": "on"
+  "folders": [
+    {
+      "path": "."
     },
-    "extensions": {
-        "recommendations": [
-            "dendron.dendron-paste-image",
-            "dendron.dendron-markdown-shortcuts",
-            "redhat.vscode-yaml"
-        ],
-        "unwantedRecommendations": [
-            "dendron.dendron-markdown-links",
-            "dendron.dendron-markdown-notes",
-            "shd101wyy.markdown-preview-enhanced",
-            "kortina.vscode-markdown-notes",
-            "mushan.vscode-paste-image"
-        ]
+    {
+      "path": "vault"
     }
+  ],
+  "settings": {
+    "dendron.rootDir": ".",
+    "files.autoSave": "onFocusChange",
+    "pasteImage.path": "${currentFileDir}/assets/images",
+    "pasteImage.prefix": "/",
+    "markdown-preview-enhanced.enableWikiLinkSyntax": true,
+    "markdown-preview-enhanced.wikiLinkFileExtension": ".md",
+    "editor.snippetSuggestions": "inline",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggest.showSnippets": true,
+    "editor.tabCompletion": "on",
+    "workbench.colorCustomizations": {
+      "activityBar.activeBackground": "#63a9d3",
+      "activityBar.background": "#63a9d3",
+      "activityBar.foreground": "#15202b",
+      "activityBar.inactiveForeground": "#15202b99",
+      "activityBarBadge.background": "#f8e6f1",
+      "activityBarBadge.foreground": "#15202b",
+      "editorError.foreground": "#000000ff",
+      "editorGroup.border": "#63a9d3",
+      "editorInfo.foreground": "#000000ff",
+      "editorWarning.foreground": "#000000ff",
+      "sash.hoverBorder": "#63a9d3",
+      "tab.activeBorder": "#63a9d3"
+    },
+    "peacock.color": "#3b93c8"
+  },
+  "extensions": {
+    "recommendations": [
+      "dendron.dendron-paste-image",
+      "dendron.dendron-markdown-shortcuts",
+      "redhat.vscode-yaml"
+    ],
+    "unwantedRecommendations": [
+      "dendron.dendron-markdown-links",
+      "dendron.dendron-markdown-notes",
+      "shd101wyy.markdown-preview-enhanced",
+      "kortina.vscode-markdown-notes",
+      "mushan.vscode-paste-image"
+    ]
+  }
 }
